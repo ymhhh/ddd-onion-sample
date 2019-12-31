@@ -1,9 +1,12 @@
+// GNU GPL v3 License
+// Copyright (c) 2017 github.com:go-trellis
+
 package domain
 
-import "github.com/go-trellis/class_loader"
+import "github.com/go-trellis/classloader"
 
 // ClassLoader 类加载器
-var ClassLoader = class_loader.NewClassLoader(class_loader.Default)
+var ClassLoader = classloader.NewClassLoader(classloader.Default)
 
 func init() {
 	ClassLoader.LoadClass("user_repository_mock", NewUserMockRepo())

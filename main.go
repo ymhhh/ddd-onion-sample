@@ -1,3 +1,6 @@
+// GNU GPL v3 License
+// Copyright (c) 2017 github.com:go-trellis
+
 package main
 
 import "github.com/go-trellis/ddd-onion-sample/infrastructure"

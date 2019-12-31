@@ -1,3 +1,6 @@
+// GNU GPL v3 License
+// Copyright (c) 2017 github.com:go-trellis
+
 package infrastructure
 
 import (
@@ -9,7 +12,7 @@ import (
 	"github.com/go-trellis/ddd-onion-sample/handlers"
 )
 
-var mapHandlers = make(map[string]handlers.HFunc, 0)
+var mapHandlers = make(map[string]handlers.HFunc)
 
 // MainEntry 主入口函数
 func MainEntry() {

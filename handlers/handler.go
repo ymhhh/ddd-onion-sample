@@ -1,3 +1,6 @@
+// GNU GPL v3 License
+// Copyright (c) 2017 github.com:go-trellis
+
 package handlers
 
 import (
@@ -5,7 +8,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/go-trellis/class_loader"
+	"github.com/go-trellis/classloader"
 )
 
 // HFunc 处理方法
@@ -54,7 +57,7 @@ func (p *BaseWorkers) Executor(ctx context.Context) (interface{}, error) {
 }
 
 // ClassLoader 类加载器
-var ClassLoader = class_loader.NewClassLoader(class_loader.Default)
+var ClassLoader = classloader.NewClassLoader(classloader.Default)
 
 func init() {
 	ClassLoader.LoadClass("user_handler", (*UserHandler)(nil))
