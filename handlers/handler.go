@@ -1,5 +1,5 @@
 // GNU GPL v3 License
-// Copyright (c) 2017 github.com:go-trellis
+// Copyright (c) 2017 github.com:iTrellis
 
 package handlers
 
@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/go-trellis/classloader"
+	"github.com/iTrellis/classloader"
 )
 
 // HFunc 处理方法

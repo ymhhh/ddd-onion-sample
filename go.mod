@@ -1,5 +1,5 @@
-module github.com/go-trellis/ddd-onion-sample
+module github.com/iTrellis/ddd-onion-sample
 
 go 1.13
 
-require github.com/go-trellis/classloader v1.0.0
+require github.com/iTrellis/classloader v1.0.0

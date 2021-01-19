@@ -1,0 +1,2 @@
+# github.com/iTrellis/classloader v1.0.0
+github.com/iTrellis/classloader

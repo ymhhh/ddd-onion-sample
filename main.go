@@ -1,9 +1,9 @@
 // GNU GPL v3 License
-// Copyright (c) 2017 github.com:go-trellis
+// Copyright (c) 2017 github.com:iTrellis
 
 package main
 
-import "github.com/go-trellis/ddd-onion-sample/infrastructure"
+import "github.com/iTrellis/ddd-onion-sample/infrastructure"
 
 func main() {
 	// do somethings with build

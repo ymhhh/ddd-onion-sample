@@ -1,12 +1,12 @@
 // GNU GPL v3 License
-// Copyright (c) 2017 github.com:go-trellis
+// Copyright (c) 2017 github.com:iTrellis
 
 package domain
 
 import (
 	"fmt"
 
-	"github.com/go-trellis/ddd-onion-sample/core"
+	"github.com/iTrellis/ddd-onion-sample/core"
 )
 
 // 模拟用户数据

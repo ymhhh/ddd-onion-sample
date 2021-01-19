@@ -1,5 +1,5 @@
 // GNU GPL v3 License
-// Copyright (c) 2017 github.com:go-trellis
+// Copyright (c) 2017 github.com:iTrellis
 
 package handlers
 
@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/go-trellis/ddd-onion-sample/domain"
+	"github.com/iTrellis/ddd-onion-sample/domain"
 )
 
 // UserHandler 用户处理对象

@@ -1,5 +1,5 @@
 // GNU GPL v3 License
-// Copyright (c) 2017 github.com:go-trellis
+// Copyright (c) 2017 github.com:iTrellis
 
 package infrastructure
 
@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/go-trellis/ddd-onion-sample/domain"
-	"github.com/go-trellis/ddd-onion-sample/handlers"
+	"github.com/iTrellis/ddd-onion-sample/domain"
+	"github.com/iTrellis/ddd-onion-sample/handlers"
 )
 
 var mapHandlers = make(map[string]handlers.HFunc)

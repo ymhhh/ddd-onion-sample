@@ -1,9 +1,9 @@
 // GNU GPL v3 License
-// Copyright (c) 2017 github.com:go-trellis
+// Copyright (c) 2017 github.com:iTrellis
 
 package domain
 
-import "github.com/go-trellis/classloader"
+import "github.com/iTrellis/classloader"
 
 // ClassLoader 类加载器
 var ClassLoader = classloader.NewClassLoader(classloader.Default)
